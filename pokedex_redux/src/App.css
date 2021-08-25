@@ -1,0 +1,191 @@
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+
+@font-face {
+  font-family: "Pokemon GB";
+  src: url("https://dl.dropboxusercontent.com/u/10822923/Pokemon_GB/Pokemon_GB.eot?") format("eot"),
+       url("https://dl.dropboxusercontent.com/u/10822923/Pokemon_GB/Pokemon_GB.svg#PokemonGB") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./assets/images/background_retro.jpg");
+  background-repeat: no-repeat;
+  background-size: 1600px auto;
+  background-attachment: fixed;
+  background-position-y: -370px;
+  background-position-x: center;
+}
+
+.Box {
+  font-family: "Pokemon GB", Arial, sans-serif;
+  border-radius: 2px;
+  padding: 8px;
+  line-height: 16px;
+  /* margin: auto; */
+  height:fit-content ;
+  background:  rgba(255,255,255,0.8);
+  border: 1px solid white;
+  box-shadow: 0 1px 0 1px black,
+              inset 0 1px 0 1px black,
+              0 0 0 1px black,
+              inset 0 0 0 1px black;
+}
+
+header {
+  width: 98%;
+  height: 20%;
+  font-family: "pokemon-font", monospace;
+  margin: 1%;
+  display: block;
+  position:fixed;
+  z-index: 1;
+}
+
+.Title {
+  background: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  font-family: "pokemon-font", monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.MainBody {
+  display: flex;
+}
+
+.TypeSelection {
+  width: 12%;
+  display: block;
+  position:fixed;
+  top: 10%;
+  left: 1%;
+}
+
+.SubBody {
+  width: 85%;
+  position: relative;
+  left: 14%;
+  top: 4vw;
+}
+
+
+.PokemonList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ThumbnailButton {
+  width: 20%;
+  position: relative;
+  margin: 1% 0 0 1%;
+}
+
+.ThumbnailButton div {
+  text-align: center;
+  font-family: "pokemon-font", monospace;
+  color: black;
+}
+
+.PokemonNumber{
+  margin: 5% 1%;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  filter: grayscale(100%);
+}
+
+.Image {
+  width: 100%;
+  min-height: 105px;
+}
+
+span {
+  margin-right: 5%;
+}
+
+.Block {
+  display: block;
+}
+
+.TypeButton {
+  min-width: 100%;
+  margin-top: 5%;
+  text-align: center;
+  background: grey;
+  padding: 1%;
+  font-size: 90%;
+  border-radius: 20px;
+}
+
+.Link {
+  text-decoration: none;
+  font-family: "pokemon-font", monospace;
+  color: black;
+}
+
+.PokemonDescContainer {
+  background-image: url("./assets/images/desc_bg.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.BackButton{
+  float: right;
+}
+.Profile {
+  display: flex;
+  margin: 3% 0 3% 2%
+}
+
+.ProfileRight {
+  width: 30%;
+  margin: 0 5%;
+  text-align: center;
+  
+}
+
+.Profile img {
+  width: 50%;
+  position: relative;
+  bottom: 15%;
+  right: 15%;
+}
+
+.ProfileLeft {
+  width: 60%;
+  padding: 2%;
+  font-family: "pokemon-font", monospace;
+}
+
+.ProfileLeft > * {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.ProfileLeft span {
+  margin: 2% 2%;
+  padding: 0 3%;
+  margin-bottom: 0;
+  background: grey;
+  border-radius: 20px;
+}
